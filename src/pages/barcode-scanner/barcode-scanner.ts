@@ -1,7 +1,7 @@
-import {BarcodeScanner } from '@ionic-native/barcode-scanner/ngx';
-import { BarcodeScanResult} from '@ionic-native/barcode-scanner';
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import {BarcodeScanner } from '@ionic-native/barcode-scanner';
+import { BarcodeScanResult} from '@ionic-native/barcode-scanner';
 
 @Component({
   selector: 'page-barcode-scanner',
