@@ -106,5 +106,7 @@
     <allow-navigation href="http://192.168.15.5:8118" sessionid="5c46a13a" />
     <allow-navigation href="http://192.168.15.5:8119" sessionid="e56bde2c" />
     <allow-navigation href="http://192.168.15.5:8101" sessionid="7888538f" />
+    <plugin name="cordova-plugin-file" spec="6.0.1" />
+    <plugin name="cordova-plugin-filepath" spec="1.5.1" />
     <engine name="android" spec="7.1.4" />
 </widget>
