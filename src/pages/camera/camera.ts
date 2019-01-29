@@ -61,7 +61,7 @@ export class CameraPage {
           alert(this.photoUri);
         }).catch((error: Error)=> {
           console.log('Error: ', error);
-        })
+        });
   }
 
 }
