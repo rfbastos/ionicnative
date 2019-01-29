@@ -2,9 +2,11 @@ import { Component, ViewChild } from '@angular/core';
 import { Platform, Nav } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { BarcodeScannerPage } from './../pages/barcode-scanner/barcode-scanner';
 
+import { BarcodeScannerPage } from './../pages/barcode-scanner/barcode-scanner';
+import { CameraPage } from './../pages/camera/camera';
 import { HomePage } from '../pages/home/home';
+
 @Component({
   templateUrl: 'app.html'
 })
@@ -17,9 +19,8 @@ export class MyApp {
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
 
     this.pages = [
-      {
-        title:'Barcode', componet:BarcodeScannerPage
-      }
+      {title:'Barcode', componet:BarcodeScannerPage},
+      {title:'Camera', componet:CameraPage}
     ];
 
     platform.ready().then(() => {

@@ -3,7 +3,7 @@
     <name>MyApp</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
-    <content original-src="index.html" src="http://192.168.15.5:8105" />
+    <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -88,5 +88,23 @@
     <allow-navigation href="http://localhost:8101" sessionid="1d1d28cc" />
     <allow-navigation href="http://192.168.15.5:8102" sessionid="b4556bd4" />
     <allow-navigation href="http://192.168.15.5:8105" sessionid="12bbb579" />
+    <plugin name="cordova-clipboard" spec="1.2.1" />
+    <allow-navigation href="http://192.168.15.5:8106" sessionid="b41ec5ea" />
+    <allow-navigation href="http://192.168.15.5:8107" sessionid="c6ce6cb0" />
+    <allow-navigation href="http://192.168.15.5:8108" sessionid="c29eacc5" />
+    <allow-navigation href="http://192.168.15.5:8109" sessionid="a2684941" />
+    <allow-navigation href="http://192.168.15.5:8110" sessionid="a58660b6" />
+    <allow-navigation href="http://192.168.15.5:8111" sessionid="042005ec" />
+    <allow-navigation href="http://192.168.15.5:8112" sessionid="facee85e" />
+    <allow-navigation href="http://192.168.15.5:8113" sessionid="e44002d0" />
+    <plugin name="cordova-plugin-camera" spec="4.0.3" />
+    <allow-navigation href="http://192.168.15.5:8114" sessionid="356bf509" />
+    <allow-navigation href="http://192.168.15.5:8115" sessionid="affb7058" />
+    <allow-navigation href="http://192.168.15.5:8116" sessionid="2bcf79cb" />
+    <plugin name="cordova-plugin-inappbrowser" spec="3.0.0" />
+    <allow-navigation href="http://192.168.15.5:8117" sessionid="62014dc7" />
+    <allow-navigation href="http://192.168.15.5:8118" sessionid="5c46a13a" />
+    <allow-navigation href="http://192.168.15.5:8119" sessionid="e56bde2c" />
+    <allow-navigation href="http://192.168.15.5:8101" sessionid="7888538f" />
     <engine name="android" spec="7.1.4" />
 </widget>

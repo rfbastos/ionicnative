@@ -1,0 +1,23 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title color="primary">Camera</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <h3 [hidden]="photoUri">Por favor selecione uma imagem</h3>
+  <img [src]="photoUri" style="width:100%" [hidden]="!photoUri"/>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="primary">
+      <ion-buttons>
+        <button ion-button icon-left (click)="onActionSheet()">
+          <ion-icon name="camera">Selecione a Imagem</ion-icon>
+        </button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
